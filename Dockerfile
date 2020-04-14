@@ -4,7 +4,7 @@ USER root
 
 WORKDIR /opt
 
-ARG ANSIBLE_TOWER_VER=3.3.1-1
+ARG ANSIBLE_TOWER_VER=3.6.3-1
 ARG PG_DATA=/var/lib/postgresql/9.6/main
 ARG AWX_PROJECTS=/var/lib/awx/projects
 ARG ANSIBLE_HOME=/home/ansible
